@@ -1,27 +1,6 @@
 body {
     background-color:indianred;
 }
-
-h1 {
-    color: white;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif ;
-}
-
-ol {
-    list-style-type: square;
-    display: block;
-    text-align: center;
-
-    
-    
-}
-li {
-    color: white;
-    display: inline;
-    padding: 5%;
-
-}
 nav {
     background-color: rgb(151, 66, 66);
     
@@ -37,16 +16,37 @@ nav {
     display: block;
     width: 80%;
     margin: auto;
-    padding: 1%;
-    
+    padding: 1%;  
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
 }
 p {
     font-family:Arial, Helvetica, sans-serif ;
     color: white;
   }
-  
 a {
     font-family:Arial, Helvetica, sans-serif ;
-    color: white;
-    
+    color: white;  
   }
+ol {
+    list-style-type: square;
+    display: block;
+    text-align: center;
+}
+li {
+    color: white;
+    display: inline;
+    padding: 5%;
+
+}
+
+
