@@ -8,20 +8,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"
     </head>
     <body>
-        <h1>Welcome to the Website</h1>
+        <h1>Verkkosivu pohja</h1>
+        <!-- Tämä on html kommentti, nav on alue jolle rakennetaan navigointi. Nav:in tyyliä voi muokata styles.css tiedostossa, jolloin kaikki sisältö tämän sisällä muokkantuu-->
         <nav>
             <ol>
                 <li><a href="https://trex-runner.com/nyancat/">Nyan cat</a></li>
-                <li><a href="index.html">Home page</a></li>
-                <li><a href="index.html">Contact</a></li>
+                <li><a href="index.html">Etusivu</a></li>
             </ol>
         </nav> 
+        <!-- div on "boxi"jonka sisältöä voidaan muokata ryhmässä. Esim. fontin väri tai alueen rajat jolla sisältö on-->
         <div class="sisalto">
 
-            <p>Tekstiä <br>
-            lol</p>
+            <p>Pyritään rakentamaan yksinkertainen toiminnallinen sivu. <br>
+            html koodista löydät lisää kommentteja kloonattuasi projektin omalle koneellesi. &#128516
+            </p>
+            <!-- viitataan html tiedoston ulkopuolella sijaitsevaan koodiin. Voidaan kirjoittaa näin jos app.js tiedosto on samassa kansiossa kuin html file. Muuten kirjoitetaan tiedostopolku-->
             <script src="app.js"></script>
-<p id="demo"> Testi</p>
+<p id="demo"> Sivulla voisi olla mm. tehtäväluettelo</p>
 <button type="button" onclick="myFunction()">muuta</button>
         </div>
     </body>
